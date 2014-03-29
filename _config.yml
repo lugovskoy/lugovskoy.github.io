@@ -1,0 +1,4 @@
+name: Bugs of Berk
+markdown: redcarpet
+pygments: true
+permalink: /:title
