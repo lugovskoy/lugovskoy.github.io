@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
 
 /*****************************************************************************/
 /*
@@ -15,7 +15,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #ecf0f1;
   font: 13.34px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -25,14 +25,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+h2 { font-size: 125%; }
 p { margin: 1em 0; }
 
 a { 
-   color: rgb(66, 139, 202); 
+   color: #3498DB;
    text-decoration: none;
 }
 
-a:hover { color: rgb(42, 100, 150); }
+a:hover { color: #2980B9; }
 
 /*****************************************************************************/
 /*
@@ -84,11 +85,12 @@ a:hover { color: rgb(42, 100, 150); }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
+/* Bugs of Berk in the header */
 .title a {
-  color: #a00;
+  color: #e74c3c;
 }
 
 .title a:hover {
@@ -96,12 +98,12 @@ a:hover { color: rgb(42, 100, 150); }
 }
 
 .header a.extra {
-  color: #aaa;
+  color: #95a5a6;
   margin-left: 1em;
 }
 
 .header a.extra:hover {
-  color: #000;
+  color: #7f8c8d;
 }
 
 .meta {
@@ -141,43 +143,52 @@ a:hover { color: rgb(42, 100, 150); }
 /*
 /*****************************************************************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+code,
+pre {
+   font-family: Menlo, Monaco, "Courier New", monospace;
 }
-
-.post pre code {
-  border: none;
+code {
+   padding: .25em .5em;
+   font-size: 50%;
+   color: #bf616a;
+   background-color: transparent;
+   border-radius: 3px;
 }
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+pre {
+   display: block;
+   margin: 0 0 14px;
+   padding: 10px 20px;
+   font-size: 16px;
+   line-height: 1.4;
+   white-space: pre;
+   white-space: pre-wrap;
+   word-break: break-all;
+   word-wrap: break-word;
+   background-color: #eee;
 }
-
-.post pre.terminal code {
-  background-color: #333;
+pre code {
+   padding: 0;
+   font-size: 80%; /* default: 100% */
+   color: inherit;
+   background-color: transparent;
+}
+.highlight {
+   margin-bottom: 15px;
+   border-radius: 4px;
+}
+.highlight pre {
+   margin-bottom: 0;
 }
 
 /* add very cool blockquotes */
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
-   border-left: 5px solid #eee;
+   border-left: 5px solid #34495e;
 }
 
 blockquote p {
@@ -196,4 +207,9 @@ blockquote p {
    max-width: 100%;
    vertical-align: middle;
    page-break-inside: avoid;
+}
+
+.emptiness {
+   color: transparent;
+   height: 2.5em;
 }

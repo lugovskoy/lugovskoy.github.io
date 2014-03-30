@@ -56,10 +56,9 @@ To allow multiple panes in a single terminal screen, we will use tmux (or you ma
 
 {% highlight bash %}
 #!/usr/local/bin/zsh
-
 ii -n berk -e ssl -s irc.nixers.net &
 cd "~/irc/irc.nixers.net/"
-echo "/m nickserv identify totally_not_my_password" > in
+echo "/m nickserv identify hackme" > in
 echo "/j #nixers" > in
 cd "#nixers/"
 tmux new -s "irc"
