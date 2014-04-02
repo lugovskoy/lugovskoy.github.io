@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
 
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -35,11 +28,6 @@ a {
 
 a:hover { color: #2980B9; }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -47,11 +35,8 @@ a:hover { color: #2980B9; }
 
 .posts li {
   line-height: 1.75em;
-  /* lines between entries, etc */
-  /* border-bottom: #e6e6e6 1px solid; */
 }
 
-/* This is the "date" part of posts. */
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -59,20 +44,11 @@ a:hover { color: #2980B9; }
   margin-right: 1em;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
 .site {
   font-size: 115%;
   text-align: justify;
-  /* width: 42em; */
   margin: 2em auto 0.5em;
   line-height: 1.5em;
-
-  /* responsive attempts */
   max-width: 42em;
   padding-left: 18px;
   padding-right: 18px;
@@ -88,7 +64,6 @@ a:hover { color: #2980B9; }
   margin-bottom: 1em;
 }
 
-/* Bugs of Berk in the header */
 .title a {
   color: #e74c3c;
 }
@@ -109,39 +84,6 @@ a:hover { color: #2980B9; }
 .meta {
   color: #aaa;
 }
-
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 
 .post ul, .post ol {
   margin-left: 1.35em;
@@ -172,7 +114,7 @@ pre {
 }
 pre code {
    padding: 0;
-   font-size: 80%; /* default: 100% */
+   font-size: 80%;
    color: inherit;
    background-color: transparent;
 }
@@ -184,7 +126,6 @@ pre code {
    margin-bottom: 0;
 }
 
-/* add very cool blockquotes */
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
@@ -194,10 +135,8 @@ blockquote {
 blockquote p {
    margin-bottom: 0;
    color: #7a7a7a;
-   /* text-indent: -0.4em; */
 }
 
-/* better img in posts */
 .post img {
    border-radius: 4px;
    -webkit-border-radius: 4px;
