@@ -89,6 +89,10 @@ a:hover { color: #2980B9; }
   margin-left: 1.35em;
 }
 
+#bulk.post {
+   margin-top: 3em;
+}
+
 code,
 pre {
    font-family: Menlo, Monaco, "Courier New", monospace;
@@ -126,10 +130,12 @@ pre code {
    margin-bottom: 0;
 }
 
+/* Add blockquotes because they are awesome */
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
-   border-left: 5px solid #34495e;
+   /* border-left: 5px solid #34495e; */
+   border-left: 4px solid rgba(52, 73, 94, 0.85);
 }
 
 blockquote p {
@@ -137,6 +143,7 @@ blockquote p {
    color: #7a7a7a;
 }
 
+/* Rounded corners, aligned, etc. */
 .post img {
    border-radius: 4px;
    -webkit-border-radius: 4px;
@@ -148,7 +155,22 @@ blockquote p {
    page-break-inside: avoid;
 }
 
+
+/* This is relatively hacky. It is purposed to have some spacing at the end of the page */
 .emptiness {
    color: transparent;
    height: 2.5em;
+}
+
+/* Post title and date on the same line */
+#ptitle {
+   font-weight: bold;
+   line-height: 1.5em;
+   font-size: 125%;
+   float: left;
+}
+
+#pdate {
+   color: #AAA;
+   float: right;
 }

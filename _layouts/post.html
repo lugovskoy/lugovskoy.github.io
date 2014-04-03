@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div id="girizgah">
+   <div id="ptitle">{{ page.title }}</div>
+   <div id="pdate">{{ page.date | date: "%B %-d, %Y" }}</div>
+</div>
 
-<div class="post">
+<div class="post" id="bulk">
 {{ content }}
 </div>
