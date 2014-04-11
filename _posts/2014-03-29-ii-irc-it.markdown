@@ -2,7 +2,6 @@
 layout: post
 title:  "ii: irc it"
 date:   2014-03-29 18:19:25
-categories: irc program unix
 ---
 
 Doug McIlroy summarized the Unix philosophy as follows:
@@ -17,7 +16,7 @@ ii is a very original IRC client. From their website:
 
 In this post, we are going to explore ii. In the end, our IRC setup will look like this:
 
-![ii screenshot]({{ site.url }}/img/ii.png)
+[![ii screenshot][iiscrot]][iiscrot]
 
 So let's begin!
 
@@ -103,7 +102,8 @@ I think ii is really a great IRC client, and a great example of the Unix philoso
 [ii]: http://tools.suckless.org/ii/
 [sic]: http://tools.suckless.org/sic/
 [suckless]: http://suckless.org/
+[iiscrot]: {{ site.url }}/img/ii.png
 [sslpatch]: http://tools.suckless.org/ii/patches/ssl
 [sslpatch2]: http://pub.iotek.org/p/5bKKiaw
-[hiii]: https://github.com/berkoz/hiii
 [joinuser]: http://tools.suckless.org/ii/patches/joinuser
+[hiii]: https://github.com/berkoz/hiii
