@@ -1,6 +1,6 @@
 ---
 layout: solo
-title: About Berk
+title: About Me
 ---
 
 Hi! My name is Berk Özbalcı. I'm a computer/math/music enthusiast living in İzmir, the west-end of Turkey. I attend Bornova Anatolian High School, and I'm in my third year.

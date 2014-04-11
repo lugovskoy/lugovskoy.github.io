@@ -4,9 +4,12 @@ title: Bugs of Berk
 ---
 
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
+   <p class="intro">Hi. I'm <a href="/about">Berk Özbalcı.</a> I'm a student in Bornova Anatolian High School. This is my blog (<a href="/atom.xml">RSS</a>)</p>
+   
+   <h2>Blog posts</h2>
+   <ul class="posts">
+      {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+   </ul>
 </div>

@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
-<div id="girizgah">
-   <div id="ptitle">{{ page.title }}</div>
-   <div id="pdate">{{ page.date | date: "%B %-d, %Y" }}</div>
-</div>
 
-<div class="post" id="bulk">
-{{ content }}
-</div>
+<article>
+   <h2>{{ page.title }}</h2>
+   {{ content }}
+</article>
+
+<footer>
+   <div id="date" class="meta">
+      {{ page.date | date_to_string }}
+   </div>
+   <div id="return">
+      <a href="/">&laquo; Return to the home page</a>
+   </div>
+</footer>
