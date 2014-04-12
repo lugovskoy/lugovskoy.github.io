@@ -45,7 +45,7 @@ echo "hi guys, how are you?" > in
 # ...
 {% endhighlight %}
 
-Simple, right? You can actually stop here and use ii like this. In the next section, we will use some other scripts with ii to make it easier to use.
+Simple, da? You can actually stop here and use ii like this. In the next section, we will use some other scripts with ii to make it easier to use.
 
 *NOTE:* To start a query with another user, you would normally `/j user`, but it doesn't work. You must `/j user <initial message>`. There is, however, [a patch][joinuser] for that, too.
 
@@ -87,7 +87,7 @@ Most guides on the internet use multitail, but I just couldn't do with multitail
 
 Now we have seen the true power of ii. We may proceed to the next section.
 
-## Using ii like an alien
+## Using ii like an astronaut
 
 The flexibility of ii gives us,
 
