@@ -1,5 +1,5 @@
 ---
-layout: solo
+layout: page
 title: About Me
 ---
 

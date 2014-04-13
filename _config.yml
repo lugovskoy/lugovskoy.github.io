@@ -2,3 +2,8 @@ name: Bugs of Berk
 markdown: redcarpet
 pygments: true
 permalink: /:title
+
+# Information for the Atom feed
+gereksiz:
+   author: "Berk Özbalcı"
+   email: "berkozbalci@gmail.com"

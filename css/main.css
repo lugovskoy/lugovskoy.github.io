@@ -67,7 +67,7 @@ header a {
    text-decoration: none;
 }
 
-/* .title is that bold orange text in the beginning */
+/* the website's name on the header */
 .title {
    display: inline-block;
    line-height: 0.5em;
@@ -177,4 +177,3 @@ footer #date {
 #home p.intro {
    margin-top: 0px;
 }
-
