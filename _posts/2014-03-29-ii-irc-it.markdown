@@ -91,7 +91,7 @@ Now we have seen the true power of ii. We may proceed to the next section.
 
 The flexibility of ii gives us,
 
-* a natural way of logging the chats (when you kill ii, what you have in `~/irc` __are__ the logs.
+* a natural way of logging the chats (when you kill ii, what you have remaning in `~/irc` are also the log files.
 * a protocol for an irc bot (files are easy to read/write to, in programming languages)
 * an easier way of piping other programs' outputs to irc
 * a possibility of running it on a server and use it as some sort of a bouncer
