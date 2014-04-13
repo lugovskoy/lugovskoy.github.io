@@ -1,11 +1,9 @@
 name: Bugs of Berk
-markdown: redcarpet
-pygments: true
-permalink: :title
-
-exclude: [README.md, LICENSE, Makefile]
-
-# Information for the Atom feed
 gereksiz:
    author: "Berk Özbalcı"
    email: "berkozbalci@gmail.com"
+
+markdown: redcarpet
+permalink: p/:title
+pygments: true
+exclude: [README.md, LICENSE, Makefile]
