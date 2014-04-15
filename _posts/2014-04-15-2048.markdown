@@ -28,11 +28,11 @@ If {% m %} a {% em %} is the highest naturally spawning tile, that is, the highe
 
 This formula assumes a perfect RNG sequence where every spawning tile is the maximum possible (for example, in the original game, imagine you always got 4). That way, you can start tiling up to {% m %} N^2 - 1 {% em %} blocks (until the game ends), and if you start tiling with blocks of {% m %} a {% em %}, ... it looks like we proved our formula. :)
 
-So, for a normal game in a 4x4 grid, with 4 being the highest possible naturally spawning tile, the highest tile achievable is {% m %} 2^{4^2 - 1} \cdot 4 = 131072 {% em %}, which is {% m %} 2^17 {% em %}.
+So, for a normal game in a 4x4 grid, with 4 being the highest possible naturally spawning tile, the highest tile achievable is {% m %} 2^{4^2 - 1} \cdot 4 = 131072 {% em %}, which is {% m %} 2^{17} {% em %}.
 
 Therefore, an infinite game is not possible.
 
-*N.B.* This also demonstrates that the naturally spawning tiles are of high importance. If you zigzagged the entire grid with powers of 2, and have one empty tile remaning in the corner, to win the game, you would need to get 4. Getting 2 will end the game immediately, and the highest tile you've achieved will be {% m %} 2^16 = 65536 {% em %}. But, with 4, you would arrive to the result above.
+*N.B.* This also demonstrates that the naturally spawning tiles are of high importance. If you zigzagged the entire grid with powers of 2, and have one empty tile remaning in the corner, to win the game, you would need to get 4. Getting 2 will end the game immediately, and the highest tile you've achieved will be {% m %} 2^{16} = 65536 {% em %}. But, with 4, you would arrive to the result above.
 
 # The highest score achievable on a NxN grid
 
