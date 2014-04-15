@@ -1,7 +1,10 @@
 name: Bugs of Berk
+
 gereksiz:
    author: "Berk Özbalcı"
    email: "berkozbalci@gmail.com"
+   domain: "bugsofberk.net"
+   analytics: "UA-49163162-1"
 
 markdown: redcarpet
 permalink: p/:title
