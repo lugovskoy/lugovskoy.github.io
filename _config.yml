@@ -5,6 +5,7 @@ gereksiz:
    email: "berkozbalci@gmail.com"
    domain: "bugsofberk.net"
    analytics: "UA-49163162-1"
+   disqus: "bugsofberk"
 
 markdown: redcarpet
 permalink: p/:title
