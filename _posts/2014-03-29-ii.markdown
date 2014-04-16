@@ -32,7 +32,7 @@ Now you are ready to test if ii works.
 
 ## Using ii like a caveman
 
-Now we are going to use ii, without any other script to make the experience better:
+Now we are going to use ii like a caveman.
 
 {% highlight bash %}
 ii -n berk -e ssl -s irc.nixers.net &
