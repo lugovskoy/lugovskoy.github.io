@@ -12,4 +12,6 @@ I'm doing this, because I've already seen the power of tools such as `awk`, `per
 
 Let's see how this goes.
 
+*N.B. Remind me to rewrite Flashcard one day.*
+
 [flashcard]: https://github.com/berkoz/flashcard
