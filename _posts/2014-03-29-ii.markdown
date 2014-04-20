@@ -102,7 +102,7 @@ I think ii is really a great IRC client, and a great example of the Unix philoso
 [ii]: http://tools.suckless.org/ii/
 [sic]: http://tools.suckless.org/sic/
 [suckless]: http://suckless.org/
-[iiscrot]: {{ site.url }}/img/ii.png
+[iiscrot]: {{ site.url }}/assets/ii.png
 [sslpatch]: http://tools.suckless.org/ii/patches/ssl
 [sslpatch2]: http://pub.iotek.org/p/5bKKiaw
 [joinuser]: http://tools.suckless.org/ii/patches/joinuser

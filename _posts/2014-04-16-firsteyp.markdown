@@ -66,8 +66,8 @@ I can't agree more to that. The sense of a community (in EYP) makes those proble
 
 [eypturkey]: http://www.eypturkey.org/en/
 [horizonmediateam]: http://horizonmediateam.wordpress.com/
-[eyp1]: {{ site.url }}/img/eyp1.png
-[eyp2]: {{ site.url }}/img/eyp2.jpg
-[eyp3]: {{ site.url }}/img/eyp3.jpg
-[eyp4]: {{ site.url }}/img/eyp4.jpg
-[eyp5]: {{ site.url }}/img/eyp5.jpg
+[eyp1]: {{ site.url }}/assets/eyp1.png
+[eyp2]: {{ site.url }}/assets/eyp2.jpg
+[eyp3]: {{ site.url }}/assets/eyp3.jpg
+[eyp4]: {{ site.url }}/assets/eyp4.jpg
+[eyp5]: {{ site.url }}/assets/eyp5.jpg
