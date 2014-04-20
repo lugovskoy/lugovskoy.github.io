@@ -10,7 +10,7 @@ I admit that I have something for Brownian noise. It musically satisfies my ears
 
 You may download the tracks individually below, in their respective sections. Or you can download the full album:
 
-Download: Betonarme müzik [(128kbps MP3, TAR archive)][album]
+Download: Betonarme müzik [(128kbps MP3, ZIP archive)][albumzip]
 
 ## Ninninin değili
 
@@ -28,4 +28,4 @@ More to come soon.
 
 [beton1]: http://bugsofberk.net/assets/beton1.mp3
 [beton2]: http://bugsofberk.net/assets/beton2.mp3
-[album]: http://bugsofberk.net/assets/betonarme-muzik.tar
+[albumzip]: http://bugsofberk.net/assets/betonarme-muzik.zip
