@@ -64,6 +64,8 @@ And it all ended, we returned home. When Inna returned her homeland, she informe
 
 I can't agree more to that. The sense of a community (in EYP) makes those problems disappear. Maybe it's what makes this experience unique. It was one of my best weeks in my life. In four days, I gained memories that could fill an entire year.
 
+*Edit:* Apparently, I was selected for the European Youth Parliament's 77th International Session in Kiev (among with 8 others from Turkey). However, due to the recent events in Ukraine, the session has been cancelled, so instead I will be participating the 9th International Youth Forum in İstanbul between the 6th and 11th of May! :)
+
 [eypturkey]: http://www.eypturkey.org/en/
 [horizonmediateam]: http://horizonmediateam.wordpress.com/
 [eyp1]: {{ site.url }}/assets/eyp1.png
