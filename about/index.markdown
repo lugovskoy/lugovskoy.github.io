@@ -3,7 +3,6 @@ layout: page
 title: About Me
 ---
 
-
 Hi! My name is Berk Özbalcı. I'm a computer/math/music enthusiast living in İzmir, the west-end of Turkey. I attend Bornova Anatolian High School, and I'm in my third year.
 
 I write code to make my life easier. I satisfy my philosophical desires with set theory and topology. I mostly listen to jazz, and some progressive rock once in a while. I also play the flute and the guitar.
