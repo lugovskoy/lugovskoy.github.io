@@ -28,7 +28,7 @@ My entire setup is built on these:
 * tmux: saves lives
 * zsh, because bash is too conservative
 
-# Software II
+## Software II
 
 I use these programs on a daily basis.
 
@@ -46,7 +46,7 @@ I use these programs on a daily basis.
 * vim: tried emacs, didn't like it
 * w3m: rarely if I ever browse on the CLI
 
-# Software III
+## Software III
 
 These programs dump euphoria to /dev/brain. Those little programs that you use sometimes, and be amazed everytime you see it working.
 
