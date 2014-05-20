@@ -1,0 +1,61 @@
+---
+layout: post
+title: "The Setup"
+date: 2014-05-20 22:10:25
+---
+
+Last updated: 20 May 2014.
+
+The most valuable thing I have on my computer, is probably my toolbox. My choice of software and my personal configuration means a lot to me. Every once in a while, people ask me my choice of software, so I wanted to create a webpage and write it all down, so I can direct people here.
+
+## Hardware
+
+* Processor: Intel® Core™2 Duo Processor E8200
+* Graphics card: NVIDIA® GeForce® 9600 GT
+* Memory: 4 GB RAM
+* Keyboard & mouse: Not worth mentioning
+
+## Software I
+
+My entire setup is built on these:
+
+* FreeBSD 10.0, both on desktop and server
+* bspwm & sxhkd for window management and keybindings on X11
+* mpd: music player daemon, yay!
+* nginx
+* rxvt-unicode, proud user
+* scmpc: to scrobble tracks to Last.fm
+* tmux: saves lives
+* zsh, because bash is too conservative
+
+# Software II
+
+I use these programs on a daily basis.
+
+* audacity: audio editing
+* beets: awesome program that organizes my music library
+* feh: image viewer
+* firefox: guilty pleasure. (developer tools)
+* git: version control
+* lilypond: to engrave sheet music, can't live without this one
+* mplayer: video player
+* ncmpcpp: music player working on top of mpd. awesome.
+* newsbeuter: the mutt of RSS/Atom feed reading
+* opus-tools: my favorite lossy codec that I use everyday
+* transmission: torrents. Tried rtorrent, but found transmission to be much more stable.
+* vim: tried emacs, didn't like it
+* w3m: rarely if I ever browse on the CLI
+
+# Software III
+
+These programs dump euphoria to /dev/brain. Those little programs that you use sometimes, and be amazed everytime you see it working.
+
+* artget: grabs album arts from Last.fm. [shameless plug][artget]
+* bar: a lightweight bar, really easy to set up!
+* hiii: my wrapper for ii. [shameless plug][hiii]
+* ii: the best IRC client ever. Read my [article.][ii]
+* scrot: takes screenshots
+
+[ii]: {{ site.url }}/p/ii
+[hiii]: https://github.com/berkoz/hiii
+[artget]: https://github.com/berkoz/artget
