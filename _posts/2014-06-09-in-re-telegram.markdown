@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "In re Telegram"
-date: 2014-06-09 22:10:25
+date: 2014-06-09 22:46:31
 ---
 
 So! There's a new *WhatsApp-killer* application called Telegram. It's open-source, and claims to have a more secure encryption. It has around 35 million users worldwide, so we could say that it's growing really fast (considering the fact that it was founded in the last year).
@@ -36,10 +36,9 @@ Things like this one aren't welcome in the open source world. Non-standard crypt
 
 ## Storage
 
-Yes, Telegram stores your chats (except for the secret chats). In the context of security, this immediately means: "Your chats can be copied for later decryption." This increases the exposure of the messages. A quote from Karsten Gerloff:
+Yes, Telegram stores your chats (except for the secret chats). In the context of security, this immediately means: "Your chats can be copied for later decryption." This increases the exposure of the messages. A [quote][quote] from Karsten Gerloff:
 
-<blockquote class="twitter-tweet" lang="en"><p>There is no cloud, just other peoples&#39; computers.</p>&mdash; Karsten Gerloff (@kgerloff) <a href="https://twitter.com/kgerloff/statuses/468674560813203456">May 20, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> There is no cloud, just other peoples' computers.
 
 ## It asks for your mobile phone number ...
 
@@ -53,3 +52,4 @@ Considered harmful.
 [hn]: https://news.ycombinator.com/item?id=6916860
 [against]: http://unhandledexpression.com/2013/12/17/telegram-stand-back-we-know-maths/
 [thoughtcrime]: http://thoughtcrime.org/blog/telegram-crypto-challenge/
+[quote]: https://twitter.com/kgerloff/status/468674560813203456
