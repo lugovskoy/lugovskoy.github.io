@@ -1,6 +1,6 @@
 # Bugs of Berk
 
-(View the website at [bugsofberk.net][blogurl])
+(View the website at [cozbit.com][blogurl])
 
 This website uses the Jekyll theme [Gereksiz][gereksiz] by [berkoz][berkoz]. Images are stored on the folder `assets/`.
 
@@ -8,6 +8,3 @@ This website uses the Jekyll theme [Gereksiz][gereksiz] by [berkoz][berkoz]. Ima
     make serve    # Serve the website on http://0.0.0.0:4000
     make push     # Push the changes to the server
 
-[blogurl]: http://bugsofberk.net
-[gereksiz]: https://github.com/berkoz/gereksiz
-[berkoz]: https://github.com/berkoz
