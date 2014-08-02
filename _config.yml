@@ -8,6 +8,6 @@ gereksiz:
    disqus: "cozbit"
 
 markdown: redcarpet
-permalink: p/:title
+permalink: /:year/:title
 pygments: true
 exclude: [README.md, LICENSE, Makefile]
