@@ -1,4 +1,4 @@
-# Bugs of Berk
+# Coz Bit
 
 (View the website at [cozbit.com][blogurl])
 
