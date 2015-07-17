@@ -9,7 +9,7 @@ tags: [memory management, memory profile]
 
 hi, this is just a stub
 
-```c++
+```c++ Desciription linenos:true
 inline void foo() {
   int *p = malloc(...);
 }
