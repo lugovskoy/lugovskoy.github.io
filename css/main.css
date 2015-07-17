@@ -102,7 +102,7 @@ header a {
 }
 
 code,pre {
-    font-family:Menlo,Monaco,"Courier New",monospace
+    font-family:Consolas, "Liberation Mono", Menlo, Courier, monospace
 }
 
 code {
