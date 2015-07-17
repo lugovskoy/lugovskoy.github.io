@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Call Static Library Functions from Dynamic Library
-published: true
+published: false
 date: 2015-02-04 14:41:31
 category: program linking
 tags: [memory management, memory profile]
@@ -9,7 +9,7 @@ tags: [memory management, memory profile]
 
 hi, this is just a stub
 
-```c++ Desciription linenos:true
+```c++
 inline void foo() {
   int *p = malloc(...);
 }
