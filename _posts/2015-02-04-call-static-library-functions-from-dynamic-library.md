@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Call Static Library Functions from Dynamic Library
-published: false
-date: 2014-08-02 14:41:31
+published: true
+date: 2015-02-04 14:41:31
 category: program linking
 tags: [memory management, memory profile]
 ---
@@ -14,6 +14,18 @@ inline void foo() {
   int *p = malloc(...);
 }
 ```
+{% highlight ruby linenos %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
 sample text
+
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+
 
