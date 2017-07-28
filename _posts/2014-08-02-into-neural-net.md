@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Into neural net
-date: {}
+date: 2014-04-18 11:30:00 +0800
 published: true
 ---
 
