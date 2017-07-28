@@ -2,7 +2,7 @@
 layout: post
 title: Call Static Library Functions from Dynamic Library
 published: true
-date: {}
+date: 2015-02-04 07:41:31
 category: program linking
 tags:
   - memory management
