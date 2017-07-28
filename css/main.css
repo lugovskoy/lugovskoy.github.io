@@ -1,5 +1,5 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext";
-@import url('https://fonts.googleapis.com/css?family=Artifika');
+@import url('https://fonts.googleapis.com/css?family=Artifika&effect=anaglyph');
 
 * {
     margin:0;
@@ -97,7 +97,8 @@ header a {
 }
 
 .title {
-    margin-top:.4em
+    margin-top:.4em;
+    font-family: 'Artifika'
 }
 
 .meta {
