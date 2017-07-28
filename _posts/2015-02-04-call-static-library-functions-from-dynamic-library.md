@@ -16,6 +16,11 @@ inline void foo() {
   int *p = malloc(...);
 }
 ```
+~~~c++
+inline void foo() {
+  int *p = malloc(...);
+}
+~~~
 {% highlight c++ linenos %}
 inline void foo() {
   int *p = malloc(...);
