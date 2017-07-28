@@ -16,14 +16,10 @@ inline void foo() {
   int *p = malloc(...);
 }
 ```
-{% highlight ruby linenos %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+{% highlight c++ linenos %}
+inline void foo() {
+  int *p = malloc(...);
+}
 {% endhighlight %}
 
 sample text
