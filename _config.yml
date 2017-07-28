@@ -1,13 +1,13 @@
 name: Cozbit
 
 gereksiz:
-   author: "Nick Lugovskoy"
-   email: "lugovksoy@gmail.com"
+   author: "Nikolai Lugovskoi"
+   email: "lugovskoy@gmail.com"
    domain: "cozbit.com"
    analytics: "UA-15818219-8"
    disqus: "cozbit"
 
-markdown: redcarpet
+markdown: kramdown
 permalink: /:year/:title
 pygments: true
 exclude: [README.md, LICENSE, Makefile]
