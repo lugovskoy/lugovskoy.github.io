@@ -14,4 +14,4 @@ inline void foo() {
 }
 ```
 
-sample text
+sample text2
