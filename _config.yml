@@ -9,5 +9,4 @@ gereksiz:
 
 markdown: kramdown
 permalink: /:year/:title
-pygments: true
-exclude: [README.md, LICENSE, Makefile]
+exclude: [README.md, LICENSE]
