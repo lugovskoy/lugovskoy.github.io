@@ -108,7 +108,7 @@ header a {
 }
 
 code,pre {
-    font-family: 'Ubuntu Mono', monospace
+    font-family: Consolas,monaco,monospace
 }
 
 code {
