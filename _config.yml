@@ -1,12 +1,5 @@
 name: "beCause Bits matter"
-
-gereksiz:
-   author: "Nikolai Lugovskoi"
-   email: "lugovskoy@gmail.com"
-   domain: "cozbit.com"
-   analytics: "UA-15818219-8"
-   disqus: "cozbit"
-
+author: "Nikolai Lugovskoi"
 markdown: kramdown
 permalink: /:year/:title
 exclude: [README.md, LICENSE]
