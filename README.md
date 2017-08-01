@@ -1,3 +1,1 @@
-# Cozbit
-
-This is my blog.
+This is a personal blog.
