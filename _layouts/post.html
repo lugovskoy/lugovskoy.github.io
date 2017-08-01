@@ -1,7 +1,23 @@
----
-layout: default
----
-
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Personal blog of Nikolai Lugovskoi, about programming">
+      <meta name="author" content="Nikolai Lugovskoi">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/syntax.css">
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="alternate" type="application/atom+xml" href="/atom.xml">
+      {% include ga.html %}
+      <title>{{ page.title }}</title>
+   </head>
+   
+   <body>
+      <main>
+         
 <article>
    <h2>{{ page.title }}</h2>
    {{ content }}
@@ -15,3 +31,7 @@ layout: default
       <a href="/">&laquo; Return to the home page</a>
    </div>
 </footer>
+         
+      </main>
+   </body>
+</html>
